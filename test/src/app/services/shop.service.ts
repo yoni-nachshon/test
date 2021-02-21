@@ -4,12 +4,12 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class ShopService {
-  frame:any;
-  lens:any;
-  right:any;
-  left:any;
-  rightCylinder:any;
-  leftCylinder:any;
+  frame;
+  lens;
+  right;
+  left;
+  rightCylinder;
+  leftCylinder;
 
  
 

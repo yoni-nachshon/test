@@ -7,7 +7,7 @@ import { ShopService } from 'src/app/services/shop.service';
   styleUrls: ['./frame.component.css']
 })
 export class FrameComponent implements OnInit {
-  @Input() frame:any;
+  @Input() frame;
 
   constructor(private shopService: ShopService  ) {
     

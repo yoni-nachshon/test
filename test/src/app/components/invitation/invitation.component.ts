@@ -7,7 +7,7 @@ import { ShopService } from 'src/app/services/shop.service';
   styleUrls: ['./invitation.component.css']
 })
 export class InvitationComponent implements OnInit {
-  frame:any;
+  frame;
   lens;
   right;
   left;
