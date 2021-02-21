@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./lenses.component.css']
 })
 export class LensesComponent implements OnInit {
+  lenses = ['close','far','multifocal'];
 
   constructor() { }
 

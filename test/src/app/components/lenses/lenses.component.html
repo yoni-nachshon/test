@@ -1,1 +1,5 @@
-
+<div class="row">
+    <div class="col-4" *ngFor="let lens of lenses">
+      <app-lens [lens]="lens"  class="col-4"></app-lens>
+    </div>
+  </div>
